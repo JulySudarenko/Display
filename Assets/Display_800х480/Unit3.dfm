@@ -1,0 +1,87 @@
+object Form3: TForm3
+  Left = 326
+  Top = 260
+  Width = 816
+  Height = 518
+  Caption = #1052#1086#1076#1091#1083#1100' '#1071#1059
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 104
+    Top = 16
+    Width = 477
+    Height = 68
+    Caption = #1042#1099#1073#1077#1088#1080#1090#1077' '#1082#1086#1084#1072#1085#1076#1091
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -60
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 8
+    Top = 16
+    Width = 82
+    Height = 68
+    Caption = #1071#1059
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -60
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 8
+    Top = 96
+    Width = 377
+    Height = 377
+    Caption = #1047#1072#1087#1088#1086#1089
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -60
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 408
+    Top = 96
+    Width = 377
+    Height = 377
+    Caption = #1059#1089#1090#1072#1085#1086#1074#1082#1072
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -60
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 592
+    Top = 8
+    Width = 201
+    Height = 81
+    Caption = #1053#1072#1079#1072#1076
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -37
+    Font.Name = 'Times New Roman'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+    OnClick = Button3Click
+  end
+end
